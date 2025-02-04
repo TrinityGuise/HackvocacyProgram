@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>El Goblino</title>
+        <style>
+            body, html {
+                margin: 0;
+                padding:0;
+                height: 100%;
+            }
+            img {
+                width: 100vw;
+                height: 100vh;
+                object-fit: cover;
+                opacity: 0;
+                animation: fadeIn 2s forwards; 
+            }
+
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <img src="Images/images.jpg">
+        <audio autoplay loop hidden>
+            <source src="Music/Cry Of The Unheard.mp3" type="audio/mpeg">
+            <source src="Music/Cry Of The Unheard.mp3" type="wav">
+        </audio>
+    </body>
+
+</html>
