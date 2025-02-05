@@ -104,6 +104,21 @@
             </big>
         </pre>
 
+        <button style="background-color: coral; font-size: 20px; color:darkorchid; border-radius: 5px;" onclick="Happens()"><b>If You Listened Through the Music, then Click This!</b></button>
+
+        <pre style="font-size: 15px;" id="Congratulations"><b>Congrats on Listening through it! Wow!</b></pre>
+
+        <script>
+            function Happens(){
+                let CongratsText = document.getElementById("Congratulations");
+                CongratsText.innerHTML = "Psych you biatch fuck you";
+
+                CongratsText.style.color = "blue"
+                CongratsText.style.fontSize = "20px"
+                CongratsText.style.padding = "10px"
+            }
+        </script>
+
         <hr>
 
         <br>
@@ -138,6 +153,11 @@
 
         <img src="Images/xqc-xqc-mald.gif">
 
+        <br> <br>
+
+        <a href="https://www.youtube.com/@xQcOW;" target="_blank">
+        <button style="font-size:20px; background-color: greenyellow; color:crimson; border-radius: 10px;"><b>Go Subscribe to This Goblin Now!</b></button> 
+        </a>
         <br>
 
         <hr>
@@ -208,4 +228,27 @@
                 <td style="background-color: yellow;">Stream Day</td>
              </tr>
         </table>
+
+        <br><br>
+
+        <form action="index.php" method="POST">
+
+            <label for="SSID Goblin Code">SSID Goblin Code:</label>
+            <input type="text" id="SSID Goblin Code" placeholder="031785142" pattern="[0-5]{3}[4-8]{3}[1-6]{3}" minlength="0" maxlength="9" required> <br>
+
+            <input type="reset">
+            <input type="submit">
+
+            <br>
+
+            <h3><b>Tip for you morons who don't know what to put in the SSID Goblin Code</b></h3>
+
+            <ol>
+                <li>The first 3 numbers can only range from 0 - 5.</li>
+                <li>The next 3 numbers after the first one can only range from 4 - 8.</li>
+                <li>The last 3 numbers can only range from 1 - 6.</li>
+
+            </ol>
+
+        </form>
 </html>
