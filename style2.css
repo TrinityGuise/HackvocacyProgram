@@ -7,6 +7,11 @@ body{
     text-align: center;
 }
 
+#supp{
+    text-shadow: 3px 4px 5px rgb(205, 4, 4), -3px -4px 5px rgb(52, 39, 199);
+    text-align: center;
+}
+
 header{
     border: 4px solid green
 }
