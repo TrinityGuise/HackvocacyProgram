@@ -11,6 +11,11 @@ header{
     border: 4px solid green
 }
 
+#waol{
+    text-shadow: 3px 3px 5px rgb(218, 33, 33);
+    color: yellowgreen;
+}
+
 #container {
     display:flex;
     gap: 10px;
