@@ -108,7 +108,13 @@ header{
     text-shadow: 4px 1px 5px;  
 }
 
-footer{
-    border: 4px solid green;
-    margin-top:30px;
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;  /* ✅ Make it span across the whole page */
+    background-color: rgb(230, 206, 90); 
+    text-align: left;  /* ✅ Keeps text centered */
+    padding: 10px;  /* ✅ Adds space so it's not squished */
+    border: 4px solid green;  /* ✅ Keeps your original style */
 }

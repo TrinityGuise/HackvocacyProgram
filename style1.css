@@ -14,3 +14,14 @@ footer{
     text-shadow: 3px 3px 5px rgb(218, 33, 33);
     color: yellowgreen;
 }
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;  /* ✅ Make it span across the whole page */
+    background-color: rgb(230, 206, 90); 
+    text-align: left;  /* ✅ Keeps text centered */
+    padding: 10px;  /* ✅ Adds space so it's not squished */
+    border: 4px solid green;  /* ✅ Keeps your original style */
+}
